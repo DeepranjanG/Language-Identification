@@ -1,5 +1,8 @@
 # Language Identification Using Deep Convolutional Recurrent Neural Networks
 
+### DEMO
+![gif from nerdy.dev](https://github.com/DeepranjanG/DeepranjanG/blob/main/Language-Identification%20(1).gif?raw=true)
+
 This repository contains the code for the paper "Language Identification Using Deep Convolutional Recurrent Neural Networks", which will be presented at the 24th International Conference on Neural Information Processing (ICONIP 2017).
 
 ## Structure of the Repository
