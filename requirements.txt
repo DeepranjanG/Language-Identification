@@ -6,3 +6,4 @@ scipy==0.19.1
 gunicorn==20.0.4
 Flask==2.0.1
 Flask-Cors==3.0.10
+numpy==1.11.2
