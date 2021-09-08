@@ -16,6 +16,7 @@ def predict():
     config = {"pixel_per_second": 50, "input_shape": [129, 500, 1], "num_classes": 4}
     data_generator = SpectrogramGenerator(inputfile, config, shuffle=False, run_only_once=True).get_generator()
     data = [np.divide(image, 255.0) for image in data_generator]
+    data = np.expand_dims(data, axis=0)
     data = np.stack(data)
 
     # Model Generation
