@@ -8,11 +8,13 @@ RUN apt-get update -y && \
 
 RUN apt-get install sox -y sudo
 
+RUN pip3 install numpy-1.11.2-cp35-cp35m-manylinux1_x86_64.whl
+
 COPY ./requirements.txt /requirements.txt
 
 WORKDIR /
 
-RUN pip install numpy-1.11.2-cp35-cp35m-manylinux1_x86_64.whl
+
 
 RUN pip3 install -r requirements.txt
 
